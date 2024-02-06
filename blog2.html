@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Blog 2
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bio.css">
+</head>
+<style>
+    body.dark-mode {
+        background-color: #2a2a2a;
+    }
+</style>
+
+<body style="font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ; text-justify: auto;color: rgb(15, 63, 81) ;">
+    <div class="main" style="background-image:url(Media/orange.jpeg);background-size: cover;height:max-content;">
+        <div class="row2"
+            style="width:100%; height: 15vh; background-color: rgb(15, 63, 81) ;padding-bottom:1%;padding-left:10% ;padding-top: 1%;">
+            <a href="bio.html">
+                <button class="button0" role="button">Home</button>
+            </a>
+            <a href="edu.html">
+                <button class="button1" role="button">Education</button>
+            </a>
+            <a href="ach.html">
+                <button class="button2" role="button">Achievements</button>
+            </a>
+            <a href="skills.html">
+                <button class="button3" role="button">->Skills<- </button>
+            </a>
+            <button class="button4" id="toggleBtn" onclick="toggleMode()">Dark/Light Mode</button>
+
+        </div>
+
+
+        <h1 style="text-align: center;"> A Journey into Intellectual Absurdity</h1>
+        <p>
+            Greetings, esteemed readers, and welcome to a blog post that endeavors to explore the depths of profundity
+            but
+            might just end up in the shallows of absurdity. Today, we embark on a philosophical journey with a mind that
+            aspires to be serious, yet struggles against the relentless force of its own inadequacy.
+            <br><br>
+            In the pursuit of wisdom, our valiant author – let's call him Sir Nonsensicus – has decided to tackle the
+            most
+            profound questions of existence. Armed with a thesaurus and an inflated sense of self-importance, he
+            ventures
+            into the abyss of deep thought, blissfully unaware of the impending cognitive calamity.
+            <br><br><br>
+            <b>The Quest for Meaning:</b>
+            <br>
+            Sir Nonsensicus starts his odyssey with the classic question: "What is the meaning of life?" A question that
+            has
+            stumped scholars and thinkers for centuries. Our intrepid blogger, however, takes a unique approach by
+            suggesting that life's meaning lies in the pursuit of finding the TV remote.
+            <br><br>
+            Because, you know, without the remote, one cannot fully appreciate the wonders of cable television.
+            <br><br><br>
+            <b>On Love and Relationships:</b>
+            <br>
+            In the pursuit of unraveling the complexities of human connection, Sir Nonsensicus grapples with the concept
+            of
+            love.
+            <br><br> He earnestly declares that the key to a successful relationship is the ability to share a
+            toothbrush
+            <br><br> After all, why bother with emotional compatibility when oral hygiene is at stake?
+            <br><br><br>
+            <b>Existential Dilemmas:</b>
+            <br>
+            As our sage confronts the mysteries of existence, he ponders the nature of reality itself.
+            <br><br>In a stroke of unparalleled genius, Sir Nonsensicus posits that the universe is a hologram created
+            by
+            intergalactic squirrels.
+            <br><br> Yes, you read that correctly – squirrels with a penchant for cosmic mischief.
+            <br><br><br>
+            <b>Political Discourse:</b>
+            <br>
+            Turning his attention to the world of politics, Sir Nonsensicus contemplates the intricacies of global
+            affairs.
+            <br><br> In a revelation that could potentially reshape international relations, he suggests that world
+            leaders
+            should settle disputes through interpretative dance competitions.
+            <br><br> Because, let's face it, who wouldn't want to see politicians twirl gracefully on the global stage?
+            <br><br>
+            <b>In Conclusion – Or Lack Thereof:</b>
+            <br>
+            As we reach the conclusion of this intellectual roller coaster, we are left with a lingering sense of
+            bewilderment.
+            <br><br>Sir Nonsensicus may not have unlocked the secrets of the universe, but he has undoubtedly left an
+            indelible mark on the landscape of absurdity.
+            <br><br>
+            In the grand tapestry of philosophical thought, our not-so-enlightened protagonist may not be a beacon of
+            wisdom, but he has certainly illuminated the path to hilarity. So, dear readers, as we bid adieu to this
+            journey
+            into intellectual absurdity, let us revel in the fact that sometimes, the pursuit of seriousness can lead us
+            down the most entertaining rabbit holes.
+            <br><br>
+        </p>
+
+        
+        <div style="font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ;text-align: center;justify-content: center;text-justify:auto;">
+            <h2>Comments</h2>
+            <textarea id="comment" rows="4" cols="50" style="text-align: center;justify-content: center;font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ;text-justify:auto;">
+        LMAO
+        I stan Sir Nonsensicus
+        Hilarious!!
+    </textarea>
+
+        </div>
+
+
+
+        <div style="font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ;text-align: center;justify-content: center;text-justify:auto;">
+            <button style="height:5vh;font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ;text-align: center;justify-content: center;text-justify:auto;"  id="likeButton" onclick="like()">&#10084; Like </button>
+            <span id="likeCount" style="font-family:Single Day; font-weight: 37vw; letter-spacing: 0.278vw; font-size: 1.852vw ;text-align: center;justify-content: center;text-justify:auto;">0</span>
+        </div>
+    </div>
+    </div>
+    <script>
+        function like() {
+            let likeCount = parseInt(localStorage.getItem('likeCount')) || 0;
+            likeCount++;
+            localStorage.setItem('likeCount', likeCount.toString());
+
+            const likeCountElement = document.getElementById('likeCount');
+            likeCountElement.textContent = likeCount.toString();
+        }
+
+        const initialLikeCount = parseInt(localStorage.getItem('likeCount')) || 0;
+        document.getElementById('likeCount').textContent = initialLikeCount.toString();
+
+        function toggleMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+
+    </script>
+
+</body>
+
+</html>

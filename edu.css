@@ -1,0 +1,111 @@
+.button0
+{
+    color: black;
+    background-color:  white;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 80%;
+    opacity: 80%;
+}
+
+
+.button1
+{
+    color: white;
+    background-color: black;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 60%;
+    opacity: 80%;
+}
+
+.button3
+{
+    color: white;
+    background-color: black;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 60%;
+    opacity: 80%;
+}
+
+.button2
+{
+    color: black;
+    background-color: white;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw;
+    height: 80%;
+    opacity: 80%;
+}
+.button0:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover
+{
+    color:rgb(155, 155, 235);
+}
+.button4
+{
+    color: black;
+    background-color: white;
+    width: 16%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw;
+    height: 80%;
+    opacity: 80%;
+}
+table,th,td
+{
+    margin-left: auto;  
+    margin-right: auto;  
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top:8%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+     text-align: center;
+     text-justify: auto;
+     justify-content: center;
+     border-radius: 5px;   
+}
+
+td
+{
+    background-color: rgb(192, 230, 246);
+}
+body.dark-mode
+{
+    background-color: black;
+}

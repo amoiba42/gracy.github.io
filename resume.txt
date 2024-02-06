@@ -1,0 +1,23 @@
+Name: Gracy Garg
+Age: 18
+Gender: Female
+Email Address: gracy.garg6516@gmail.com
+
+Education:
+Fresher at IIIT-H
+
+Skills:
+Coding skills->
+C
+Python
+HTML
+JSS
+CSS
+
+Description:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel consequat libero. Vestibulum in ligula in tortor feugiat sagittis. Vestibulum vehicula mi ac tortor venenatis, ac efficitur ex convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec id tellus non nulla volutpat rhoncus. Nullam vestibulum nisl et ex consequat, sit amet vehicula elit eleifend. Ut ultricies vehicula dui vitae malesuada. Curabitur nec orci vel sapien efficitur bibendum. Proin aliquet tincidunt odio. Curabitur dapibus volutpat nisi, a feugiat nibh posuere eget.
+
+Phasellus vehicula dignissim mi, ac facilisis ligula ullamcorper a. Quisque maximus feugiat ultrices. Morbi at nunc nec ipsum viverra egestas. Vestibulum in consectetur odio. Vivamus suscipit felis non quam condimentum, sit amet vehicula arcu hendrerit. Ut nec ultricies felis. Donec non justo vel leo aliquam mattis sed id ex. Phasellus rutrum nulla eu justo malesuada, non fermentum mauris lacinia. Nulla non nunc velit. Integer ultrices, felis in hendrerit pellentesque, est risus venenatis justo, sed sodales mi eros eget nunc. Sed eu odio quis mauris congue facilisis. Pellentesque ut enim ut nulla tempor venenatis nec at eros. Proin ut libero quis libero egestas fermentum nec eget libero. Cras tempus risus eget mi congue, sit amet maximus lacus placerat. Nullam nec urna non justo convallis venenatis eget nec odio.
+
+Sed tincidunt varius tortor ac consequat. Vestibulum non elit nec lacus hendrerit feugiat. Fusce nec dui arcu. Pellentesque non pharetra tortor
+

@@ -1,0 +1,117 @@
+.button0
+{
+    color: black;
+    background-color:  white;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 80%;
+    opacity: 80%;
+}
+
+
+.button1
+{
+    color: white;
+    background-color: black;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 60%;
+    opacity: 80%;
+}
+
+.button3
+{
+    color: white;
+    background-color: black;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    align-content: center;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw ;
+    height: 60%;
+    opacity: 80%;
+}
+
+.button2
+{
+    color: black;
+    background-color: white;
+    width: 18%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw;
+    height: 80%;
+    opacity: 80%;
+}
+.button0:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover
+{
+    color:rgb(155, 155, 235);
+}
+.button4
+{
+    color: black;
+    background-color: white;
+    width: 16%;
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing: 0.278vw;
+    font-size: 1.852vw;
+    border-radius: 1.111vw;
+    border-style:outset;
+    border: 0.185vw;
+    height: 80%;
+    opacity: 80%;
+}
+  .Img_div
+  {
+    position: fixed;
+    background-size: cover;
+    height: 70vw;
+    width: 100%;
+    background-image: url(Media/pngtree-background-pastel-yellow-picture-image_1589646.png);
+  }
+  
+
+.text1
+{
+    font-family: "Single Day";
+    font-weight: 37vw;
+    letter-spacing:0.278vw;
+    font-size: 1.852vw;
+    justify-content: center;
+}
+body.dark-mode
+{
+    background-color: black;
+}
+@media screen and (max-width:1000px) 
+{
+    .Img_div
+    {
+        height: 100%;
+    }
+
+
+}
